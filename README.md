@@ -133,3 +133,21 @@ python main.py delete old-account
 python main.py change-master
 ```
 
+## 🔒 Security Information
+
+This password manager uses:
+- Encrypted storage of your passwords using a master password
+- Basic XOR-based encryption with multiple iterations
+- Local storage of passwords (no cloud sync)
+- File permission restrictions (readable only by you)
+
+### Security Limitations:
+
+This is a simple password manager for educational purposes and has several limitations:
+- The encryption method is not as strong as industry standards like AES
+- The master password is vulnerable to brute-force attacks
+- No protection against memory attacks
+- No backup or synchronization features
+
+For critical accounts, consider using a professional password manager with stronger security features.
+
