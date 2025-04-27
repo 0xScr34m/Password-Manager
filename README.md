@@ -16,7 +16,7 @@ A simple command-line password manager that generates, stores, and retrieves pas
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/password-manager.git
+git clone https://github.com/0xScr34m/password-manager.git
 cd password-manager
 ```
 
@@ -25,4 +25,18 @@ cd password-manager
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <command> [options]
+```
+
+## ⚙️ Commands
+
+- `generate`: Generate a random password
+- `add`: Add or update a password
+- `get`: Retrieve a password
+- `list`: List all stored services
+- `delete`: Delete a stored password
+- `change-master`: Change the master password
 
