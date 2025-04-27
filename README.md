@@ -159,3 +159,6 @@ For critical accounts, consider using a professional password manager with stron
 - The `list` command only shows service names and usernames, not the actual passwords
 - You can store other sensitive information in the password field, not just passwords
 
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
