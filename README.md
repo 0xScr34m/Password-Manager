@@ -151,3 +151,11 @@ This is a simple password manager for educational purposes and has several limit
 
 For critical accounts, consider using a professional password manager with stronger security features.
 
+## 💡 Tips
+
+- Use a long, complex master password that you can remember
+- Make backups of your password file (`~/.password_store.json` by default)
+- For maximum security, use long passwords with all character types
+- The `list` command only shows service names and usernames, not the actual passwords
+- You can store other sensitive information in the password field, not just passwords
+
