@@ -91,3 +91,45 @@ python main.py change-master
 
 - `-f, --file`: Password storage file (default: ~/.password_store.json)
 
+## 📝 Examples
+
+### Generate a password:
+```bash
+python main.py generate
+```
+
+### Generate a custom password:
+```bash
+python main.py generate -l 20 --no-symbols
+```
+
+### Add a password:
+```bash
+python main.py add gmail user@example.com
+```
+
+### Add with an auto-generated password:
+```bash
+python main.py add github username -g -l 24
+```
+
+### Retrieve a password:
+```bash
+python main.py get gmail
+```
+
+### List all stored passwords:
+```bash
+python main.py list
+```
+
+### Delete a password:
+```bash
+python main.py delete old-account
+```
+
+### Change your master password:
+```bash
+python main.py change-master
+```
+
